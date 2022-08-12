@@ -1,0 +1,59 @@
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #FFFFFF;
+    --active-color: #2196F3;
+}
+
+.body-styles{
+  color: var(--primary-text-color);  
+}
+
+.logo-dark{
+    color: #000000;
+}
+
+.accent-logo{
+    color: #2196F3;
+}
+
+.header-styles{
+    background-color: #FFFFFF;    
+}
+
+.navigation,.titles{
+    color: var(--title-text-color);
+}
+
+.navigation:hover,
+.connection:hover{
+    color: var(--active-color);
+}
+
+.navigation:focus,
+.connection:focus{
+    color: var(--active-color);
+}
+
+.section-order,.footer-styles,.footer-style{
+    background-color: #2F303A;
+    color: var(--accent-text-color);
+}
+
+.button-order{
+    background-color: #2196F3;
+    color: var(--accent-text-color);
+    cursor: pointer;
+}
+
+.section-benefits, .section-activity, .section-examples{
+    background-color: #F5F5F5;   
+}
+
+.section-team{
+    background-color: #F5F4FA;
+}
+
+.logo-light{
+    color: #FFFFFF;
+}
