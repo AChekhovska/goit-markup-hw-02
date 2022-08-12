@@ -3,39 +3,58 @@
     --title-text-color: #212121;
     --accent-text-color: #FFFFFF;
     --active-color: #2196F3;
+    --primary-font: font-family:'Roboto', sans-serif;
+    --secondary-font: font-family: 'Raleway', sans-serif;
 }
 
-.body-styles{
-  color: var(--primary-text-color);  
+.link{
+    text-decoration: none;
+}
+
+.list{
+list-style: none;
+}
+
+.page-button{
+    cursor: pointer;
+}
+
+.page-body{
+  color: var(--primary-text-color);
+  font-family: var(--primary-font);  
 }
 
 .logo-dark{
     color: #000000;
+    font-family: var(--secondary-font);
+    Weight:700
+    Size26px
+    Line height30.52px
 }
 
 .accent-logo{
     color: #2196F3;
 }
 
-.header-styles{
+.page-header{
     background-color: #FFFFFF;    
 }
 
-.navigation,.titles{
+.list-navigation,.titles{
     color: var(--title-text-color);
 }
 
-.navigation:hover,
-.connection:hover{
+.list-navigation:hover,
+.list-connection:hover{
     color: var(--active-color);
 }
 
-.navigation:focus,
-.connection:focus{
+.list-navigation:focus,
+.list-connection:focus{
     color: var(--active-color);
 }
 
-.section-order,.footer-styles,.footer-style{
+.section-order,.page-footer,.footer-style{
     background-color: #2F303A;
     color: var(--accent-text-color);
 }
@@ -43,8 +62,7 @@
 .button-order{
     background-color: #2196F3;
     color: var(--accent-text-color);
-    cursor: pointer;
-}
+    }
 
 .section-benefits, .section-activity, .section-examples{
     background-color: #F5F5F5;   
