@@ -1,10 +1,13 @@
 :root{
+    --main-background-color:  #FFFFFF;
+    --main-logo-color: #000000;
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-text-color: #FFFFFF;
     --active-color: #2196F3;
     --primary-font: font-family:'Roboto', sans-serif;
     --secondary-font: font-family: 'Raleway', sans-serif;
+    --button-font: font-family:inherit
 }
 
 .link{
@@ -20,56 +23,133 @@ list-style: none;
 }
 
 .page-body{
+    background-color: var(--main-background-color);
   color: var(--primary-text-color);
   font-family: var(--primary-font);  
 }
 
 .logo-dark{
-    color: #000000;
+    color: var(--main-logo-color);
     font-family: var(--secondary-font);
-    Weight:700
-    Size26px
-    Line height30.52px
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: left;
 }
 
 .accent-logo{
-    color: #2196F3;
+    color: var(--active-color)
 }
 
-.page-header{
-    background-color: #FFFFFF;    
-}
-
-.list-navigation,.titles{
+.list-navigation, .list-connection{
     color: var(--title-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
 }
 
-.list-navigation:hover,
-.list-connection:hover{
+.list-navigation :hover,
+.list-connection :hover{
     color: var(--active-color);
 }
 
-.list-navigation:focus,
-.list-connection:focus{
-    color: var(--active-color);
+.list-navigation :focus,
+.list-connection :focus{
+    color: var(--active-color)
 }
+
+.current{
+    color: var(--active-color)
+}
+
+.main-title{
+color:var(--accent-text-color);
+font-size: 44px;
+font-weight: 900;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-align: center;
+}
+
+.button-order{
+    background-color: #2196F3;
+    color: var(--accent-text-color);
+    font-family: var(--button-font);
+    }
+
+    .button-order :hover,
+    .button-order :focus{
+        background-color: #188CE8;
+
+    }
 
 .section-order,.page-footer,.footer-style{
     background-color: #2F303A;
     color: var(--accent-text-color);
 }
 
-.button-order{
-    background-color: #2196F3;
-    color: var(--accent-text-color);
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0000);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.titles{
+    color: var(--title-text-color);
+}
+
+.benefits{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: left;
     }
 
-.section-benefits, .section-activity, .section-examples{
-    background-color: #F5F5F5;   
-}
+.activity{
+     font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+    }
 
 .section-team{
     background-color: #F5F4FA;
+}
+
+.team{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.team-member{
+font-size: 16px;
+font-weight: 500;
+line-height: 1.19;
+letter-spacing: 0.03em;
+text-align: center;
+}
+
+.team-profession{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
 
 .logo-light{

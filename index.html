@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css"
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body class="page-body">
     <header class="page-header">
@@ -16,9 +16,9 @@
     <a href="./index.html" class="link"><span class="logo-dark"><span class="accent-logo">Web</span>Studio</span></a>
     
     <ul>
-      <li class="list-navigation list"><a href="./index.html">Студія</a></li>
-      <li class="list-navigation link list"><a href="./portfolio.html">Портфоліо</a></li>
-      <li class="list-navigation link list"><a href="#">Контакти</a></li>  
+      <li class="list-navigation link list current"><a href="./index.html">Студія</a></li>
+      <li class="list-navigation link list current"><a href="./portfolio.html">Портфоліо</a></li>
+      <li class="list-navigation link list current"><a href="#">Контакти</a></li>  
     </ul>
         </nav>
 
@@ -30,34 +30,34 @@
 
 <main>
     <section class="section-order">
-        <h1>Ефективні рішення для вашого бізнесу</h1>
+        <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="button-order page-button">Замовити послугу</button>
     </section>
 
     <section class="section-benefits">
-        <h2>Наші особливості</h2>
+        <h2 class="visually-hidden">Наші особливості</h2>
         <ul>
-            <li>
-                <h3 class="titles">Увага до деталей</h3>
+            <li class="list">
+                <h3 class="titles benefits">Увага до деталей</h3>
                 <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-            </li>
-            <li>
-                <h3 class="titles">Пунктуальність</h3>
+            </li class="list">
+            <li class="list">
+                <h3 class="titles benefits">Пунктуальність</h3>
                 <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
             </li>
-            <li>
-                <h3 class="titles">Планування</h3>
+            <li class="list">
+                <h3 class="titles benefits">Планування</h3>
                 <p>Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
-            <li>
-                <h3 class="titles">Сучасні технології</h3>
+            <li class="list">
+                <h3 class="titles benefits">Сучасні технології</h3>
                 <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </li>
         </ul>
     </section>
 
     <section class="section-activity">
-        <h2 class="titles">Чим ми займаємося</h2>
+        <h2 class="titles activity">Чим ми займаємося</h2>
         <ul>
             <li><img src="images/pic.jpg" alt="Набір тексту на клавіатурі" 
                 width="370" height="294"/></li>
@@ -69,24 +69,24 @@
     </section>
 
     <section class="section-team">
-        <h2 class="titles">Наша команда</h2>
+        <h2 class="titles team">Наша команда</h2>
         <ul>
             <li><img src="images/product-designer.jpg" alt="Фото Ігора Дем'яненко"
                 width="270" height="260"/>
-                <h3 class="titles">Ігор Дем'яненко</h3>
-                <p>Product Designer</p></li>
+                <h3 class="titles team-member">Ігор Дем'яненко</h3>
+                <p class="team-profession">Product Designer</p></li>
             <li><img src="images/frontend-developer.jpg" alt="Фото Ольги Рєпіної"
                 width="270" height="260"/>
-                <h3 class="titles">Ольга Рєпіна</h3>
-                <p>Frontend Developer</p></li>
+                <h3 class="titles team-member">Ольга Рєпіна</h3>
+                <p team-profession>Frontend Developer</p></li>
             <li><img src="images/marketing.jpg" alt="Фото Миколи Тарасова"
                 width="270" height="260"/>
-                <h3 class="titles">Микола Тарасов</h3>
-                <p>Marketing</p></li>
+                <h3 class="titles team-member">Микола Тарасов</h3>
+                <p team-profession>Marketing</p></li>
             <li><img src="images/ui-designer.jpg" alt="Фото Михайла Єрмакова" 
                 width="270" height="260"/>
-                <h3 class="titles">Михайло Єрмаков</h3>
-                <p>UI Designer</p></li>
+                <h3 class="titles team-member">Михайло Єрмаков</h3>
+                <p team-profession>UI Designer</p></li>
         </ul>     
        </section>
 </main>
